@@ -14,7 +14,9 @@
 def speak_to_grandma (string)
   if string != string.uppercase
     return "HUH?! SPEAK UP, SONNY!"
-  elseif string == string.uppercase
-    "LOVE YOU!"
+  elseif string == "HUH?! SPEAK UP, SONNY!"
+    "I LOVE YOU TOO PUMPKIN!"
+  else
+    string == string.uppercase
   end
 end
