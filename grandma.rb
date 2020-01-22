@@ -12,11 +12,11 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma (string)
-  if string != string.uppercase
+  if string != string.upcase
     return "HUH?! SPEAK UP, SONNY!"
   elseif string == "HUH?! SPEAK UP, SONNY!"
     "I LOVE YOU TOO PUMPKIN!"
   else
-    string == string.uppercase
+    string == string.upcase
   end
 end
